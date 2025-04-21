@@ -1,0 +1,26 @@
+✅ 1. باز کردن ترمینال (داخل IntelliJ یا خود سیستم)
+مثلاً:
+
+
+cd path/to/your/project
+✅ 2. اگه هنوز git init نکردی:
+
+git init
+✅ 3. فایل‌ها رو به git اضافه کن:
+
+git add .
+این دستور همه‌ی فایل‌ها رو stage می‌کنه
+
+✅ 4. یه کامیت اولیه بزن:
+
+git commit -m "initial commit - task manager app backend"
+✅ 5. اتصال به ریپوی گیت‌هاب
+
+git remote add origin https://github.com/jodivahid/task-manager-app.git
+✅ 6. Push به GitHub (برای اولین بار):
+
+git push -u origin master
+اگه پیغام خطا گرفتی که شاخه اصلی باید main باشه، این دستور رو بزن:
+
+
+git push -u origin main
