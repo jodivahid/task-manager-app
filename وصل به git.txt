@@ -21,6 +21,3 @@ git remote add origin https://github.com/jodivahid/task-manager-app.git
 
 git push -u origin master
 اگه پیغام خطا گرفتی که شاخه اصلی باید main باشه، این دستور رو بزن:
-
-
-git push -u origin main
